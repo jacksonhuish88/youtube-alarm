@@ -73,7 +73,7 @@ function AlarmApp() {
             <div className="form-group">
               <input
                 type="text"
-                placeholder="Enter YouTube or Spotify URL"
+                placeholder="Enter YouTube Video URL"
                 value={link}
                 onChange={(e) => setLink(e.target.value)}
                 className="form-control"
